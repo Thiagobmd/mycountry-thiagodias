@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+
+body {
+  background-image: url(assets/img/bg-image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  font-family: "Indie Flower", cursive;
+
+  h1 {
+    margin: 50px 0px 50px 0px;
+    color: #dc143c;
+    font-size: 5rem;
+  }
+
+  ul {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    li {
+      font-size: 20px;
+      background: url(assets/img/star.png) no-repeat left center;
+      padding: 6px 0px 5px 30px;
+      list-style: none;
+      margin: 0px 0px 10px 0px;
+      background-size: 20px 20px;
+      color: #000000;
+    }
+  }
+}
+
+@media (min-width: 993px) {
+    .container {
+        max-height: 690px;
+        overflow: hidden;
+      }
+}
+
+@media (max-width: 992px) {
+
+
+  h1 {
+    font-size: 34px !important;
+  }
+  ul {
+    height: 50% !important;
+    width: 100% !important;
+    flex-wrap: inherit !important;
+  }
+  .container {
+    min-height: 1680px;
+  }
+  .logo-deposit {
+    margin: 0 auto;
+  }
+
+  .img-id {
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) { 
+
+}
