@@ -20,8 +20,6 @@ export class MyCountryListComponent implements OnInit {
   ngOnInit() {
     this.statesService.getStates().subscribe((res : any[])=>{
       this.statesList = res;
-
-      console.log(this.statesList);
   });
   }
 
